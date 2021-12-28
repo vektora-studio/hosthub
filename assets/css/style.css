@@ -306,7 +306,17 @@ footer ul li {
     color: var(--black);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1400px) {
+    .sm {
+        padding: 0;
+    }
+
+    .rb-behind {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
     main {
         margin-top: -50%;
     }
@@ -314,9 +324,22 @@ footer ul li {
     .our-world-wrap {
         gap: 20px;
     }
+
+    .rating-box {
+        flex-wrap: wrap;
+    }
+
+    .rb-behind {
+        position: static;
+        margin-top: 0;
+    }
+
+    .rb img {
+        width: 50%;
+    }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
     .hero {
         /* min-height: 80vh; */
         height: auto;
