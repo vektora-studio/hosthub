@@ -350,28 +350,36 @@ footer ul li {
     }
     .rb {
         /* width: auto; */
-        min-width: 300px;
-        padding: 24px;
+        /* min-width: 300px; */
+        padding: 10px;
+        width: 25%;
     }
     .rb-center {
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .rb-behind {
-        position: static;
-        margin-top: 0;
-        margin: -6% auto;
+        position: absolute;
+        /* margin-top: 0; */
+        margin: 0;
+        z-index: -1;
     }
-    .rating-box {
+    /* .rating-box {
         flex-direction: column;
-        /* align-items: center; */
-    }
+    } */
     .front {
-        min-height: unset;
-        width: auto;
-        padding: 30px;
+        /* min-height: unset; */
+        width: 40%;
+        padding: 20px;
     }
     .sm {
-        padding: 15px;
+        padding: 15px 0;
+    }
+    .star {
+        margin: 10px 0;
+        padding: 0;
+    }
+    .rb span {
+        font-size: .85em;
     }
     footer {
         padding: 10% 0;
